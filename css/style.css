@@ -9,7 +9,7 @@ body {
     font-size: 16px;
     line-height: 1.6;
     overflow-x: hidden;
-    color: #868F9B;
+    color: #565656;
     box-sizing: border-box;
 }
 
@@ -18,7 +18,8 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     margin-top: 0px;
     margin-bottom: 20px;
-    color: #10161A;
+    /* color: #10161A; */
+    color: #294344;
 }
 
 h1 {
@@ -108,6 +109,11 @@ ul, ol {
 
 /* --  background section  -- */
 
+.divided {
+  border-top: 1px solid #EEE;
+  border-bottom: 1px solid #EEE;
+}
+
 .bg-grey {
     background-color: #FAFAFA;
     border-top: 1px solid #EEE;
@@ -116,6 +122,10 @@ ul, ol {
 
 .bg-dark {
     background-color: #1C1D21;
+}
+
+.bg-soft{
+  background: #f2feff;
 }
 
 /* --  background image section  -- */
@@ -188,7 +198,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 /* --  Buttons  -- */
 
-.main-btn, .white-btn, .outline-btn, .white-outline-btn {
+.main-btn, .white-btn, .outline-btn, .white-outline-btn, .color-outline-btn {
     display: inline-block;
     padding: 8px 24px;
     margin: 3px;
@@ -220,7 +230,13 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     border-color: white;
 }
 
-.main-btn:hover, .white-btn:hover, .outline-btn:hover {
+.color-outline-btn {
+  background: white;
+  color: #009BA2 !important;
+  border-color: #009BA2;
+}
+
+.main-btn:hover, .white-btn:hover, .outline-btn:hover, .color-outline-btn:hover {
     box-shadow: 0px 0px 24px 6px rgba(0,0,0,0.08);
     box-shadow: 0px 2px 24px 12px rgba(0, 155, 162, 0.24);
     transition: 0.2s;
@@ -548,8 +564,26 @@ header {
 }
 
 #home {
-    height: 80vh;
-    background-color: #fff;
+  height: 80vh;
+  background-color: #f2feff;
+/*
+  background-image: url("../img/art3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+*/
+}
+
+.home-art {
+    position: absolute;
+    top: -10%;
+    /* float: right; */
+    right: -16%;
+    /* height: 45%; */
+    z-index: 1;
+}
+
+.home-art img {
+  height: 95vh;
 }
 
 #home .home-wrapper {
@@ -568,17 +602,6 @@ header {
     display: inline-block;
     vertical-align: middle;
     width: 50%;
-}
-
-.home-content button {
-  margin-top: 16px;
-}
-
-.home-mockup {
-    vertical-align: middle;
-    width: 400px;
-    display: inline-block;
-    margin-left: 32px;
 }
 
 .header-wrapper h2 {
@@ -605,11 +628,12 @@ header {
 }
 
 .home-content h5 {
-  font-size: 14px;
-  font-weight: 300;
-  color: #9E9E9E;
-  display: inline-block;
-  max-width: 200px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #767676;
+    display: inline-block;
+    max-width: 200px;
+    margin: 8px 12px;
 }
 
 .home-content p {
@@ -626,13 +650,14 @@ header {
 \*------------------------------------*/
 
 .about {
-    border-radius: 8px;
-    position: relative;
-    text-align: center;
-    padding: 40px 20px;
-    border: 1px solid #EEE;
-    /* border-top: 3px solid black; */
-    margin: 15px 0px;
+  border-radius: 8px;
+  position: relative;
+  text-align: center;
+  padding: 40px 20px;
+  border: 1px solid #EEE;
+  /* border-top: 3px solid black; */
+  margin: 15px 0px;
+  background: #f2feff
 }
 
 .about i {
@@ -666,6 +691,11 @@ header {
 .work {
     position: relative;
     padding: 20px;
+}
+
+.work img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .work>img {
@@ -1038,6 +1068,10 @@ footer h5 {
 	Responsive
 \*------------------------------------*/
 
+.responsive-img {
+  width: 100%;
+}
+
 @media only screen and (max-width: 991px) {
     
     /* reduces home height */
@@ -1218,6 +1252,10 @@ footer h5 {
     #home {
         min-height: 643px;
         max-height: 840px;
+    }
+
+    #home .col-md-12 {
+      text-align: left;
     }
     
     .tablet-video {
