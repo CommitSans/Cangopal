@@ -5,7 +5,7 @@
 /* -- typography -- */
 
 body {
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     line-height: 1.6;
     overflow-x: hidden;
@@ -14,10 +14,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Helvetica', sans-serif;
     font-weight: 700;
     margin-top: 0px;
-    margin-bottom: 20px;
     /* color: #10161A; */
     color: #294344;
 }
@@ -38,7 +36,7 @@ h3 {
 h4 {
     font-size: 2rem;
     line-height: 27px;
-    font-weight: 400;
+    font-weight: lighter;
 }
 
 h5 {
@@ -107,6 +105,10 @@ ul, ol {
     padding-bottom: 60px;
 }
 
+#integrations .section-header {
+  padding: 0px 20%;
+}
+
 /* --  background section  -- */
 
 .divided {
@@ -166,7 +168,6 @@ ul, ol {
 
 .section-header {
     position: relative;
-    margin-bottom: 40px;
 }
 
 .section-header-left {
@@ -206,6 +207,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     border-radius: 4px;
     -webkit-transition: 0.2s opacity;
     transition: 0.2s opacity;
+    line-height: 2.4rem;
 }
 
 .main-btn {
@@ -231,9 +233,13 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 .color-outline-btn {
-  background: white;
-  color: #009BA2 !important;
-  border-color: #009BA2;
+    background: #f2feff;
+    color: #009BA2 !important;
+    border-color: #009BA2;
+}
+
+.fixed-nav .color-outline-btn {
+    background: #ffffff;
 }
 
 .main-btn:hover, .white-btn:hover, .outline-btn:hover, .color-outline-btn:hover {
@@ -290,6 +296,10 @@ button {
 /*------------------------------------*\
 	Logo
 \*------------------------------------*/
+
+.navbar-nav>li>a {
+    line-height: 16px;
+}
 
 .navbar-brand {
   padding: 0;
@@ -638,6 +648,7 @@ header {
 
 .home-content p {
   font-size: 2rem;
+  margin-bottom: 16px;
 }
 
 .home-content iframe {
@@ -657,7 +668,11 @@ header {
   border: 1px solid #EEE;
   /* border-top: 3px solid black; */
   margin: 15px 0px;
-  background: #f2feff
+  background: #ffffff;
+}
+
+.about:hover {
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, .08);
 }
 
 .about i {
@@ -678,15 +693,6 @@ header {
 /*------------------------------------*\
 	Portfolio / Media
 \*------------------------------------*/
-
-#portfolio .row {
-    text-align: center;
-}
-
-#portfolio .col-md-3 {
-    float: none;
-    display: inline-block;
-}
 
 .work {
     position: relative;
@@ -1004,6 +1010,10 @@ header {
   text-align: center;
 }
 
+#banner-center .container {
+  width: 750px;
+}
+
 #download-banner img {
 }
 
@@ -1154,10 +1164,6 @@ footer h5 {
     .col-md-4 {
         float: none;
         display: inline-block;
-    }
-    
-    #portfolio .col-md-3 {
-        width: 49% !important;
     }
     
     #goals .hide-mobile {
