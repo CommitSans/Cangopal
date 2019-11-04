@@ -199,6 +199,10 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 /* --  Buttons  -- */
 
+buttons {
+  display: flex;
+}
+
 .main-btn, .white-btn, .outline-btn, .white-outline-btn, .color-outline-btn {
     display: inline-block;
     padding: 8px 24px;
@@ -605,6 +609,7 @@ header {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     text-align: center;
+  z-index: 2;
 }
 
 .home-content {
@@ -1011,7 +1016,7 @@ header {
 }
 
 #banner-center .container {
-  width: 750px;
+  padding: 0px 20%;
 }
 
 #download-banner img {
@@ -1115,6 +1120,10 @@ footer h5 {
 
 @media only screen and (max-width: 768px) {
 
+  #nav {
+    text-align: center;
+  }
+  
   .section-header h2.title {
   		font-size: 31.5px;
 	}
@@ -1125,9 +1134,23 @@ footer h5 {
 	}
 
   .home-content h1 {
-		font-size: 6rem;
+		font-size: 4rem;
 	}
 
+  #home .home-wrapper {
+    top: 66%;
+  }
+  
+  .home-art {
+    right: 0px;
+    top: 8%;
+  }
+  
+  .home-art img {
+    width: 100%;
+    height: auto;
+  }
+  
   .header-wrapper h2 {
       margin-bottom: 20px;
       text-align: center;
@@ -1151,10 +1174,6 @@ footer h5 {
     /* fixes */
     .col-md-4 {
         width: 49%;
-    }
-    
-    buttons {
-        display: none;
     }
     
     .row {
