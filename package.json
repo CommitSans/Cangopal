@@ -1,0 +1,15 @@
+{
+  "name": "Cangopal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "build": "static-i18n -l es -i en -i es -o docs www"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "static-i18n": "^0.2.3"
+  }
+}
