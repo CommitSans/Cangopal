@@ -31,7 +31,7 @@ h1 {
 }
 
 h2 {
-  font-size: 5rem;
+  font-size: 6rem;
   margin-bottom: 8px;
 }
 
@@ -655,14 +655,11 @@ header {
 .supporting-txt {
   font-size: 14px;
   font-weight: 300;
+  color: #767676;
   display: inline-block;
   max-width: 200px;
   margin: 8px 12px;
   vertical-align: middle;
-}
-
-#CTA .supporting-txt {
-  color: white;
 }
 
 .home-content p {
@@ -1031,11 +1028,6 @@ header {
 
 #banner-center .container {
   padding: 0px 20%;
-}
-
-#banner-center button { 
-  min-height: 56px;
-  margin-top: 24px;
 }
 
 
