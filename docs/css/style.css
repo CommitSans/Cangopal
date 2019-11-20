@@ -503,23 +503,6 @@ button {
     #nav.nav-transparent {
         /* background: #FFF; */
     }
-    .main-nav {
-        position: fixed;
-        right: 0;
-        height: calc(100vh - 80px);
-        -webkit-box-shadow: 0px 80px 0px 0px #1C1D21;
-        box-shadow: 0px 80px 0px 0px #1C1D21;
-        max-width: 250px;
-        width: 0%;
-        -webkit-transform: translateX(100%);
-        -ms-transform: translateX(100%);
-        transform: translateX(100%);
-        margin: 0;
-        overflow-y: auto;
-        background: #1C1D21;
-        -webkit-transition: 0.2s all;
-        transition: 0.2s all;
-    }
     #nav.open .main-nav {
         -webkit-transform: translateX(0%);
         -ms-transform: translateX(0%);
@@ -716,10 +699,12 @@ header {
     padding: 20px;
 }
 
+/*
 #clients .work img {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
+*/
 
 .work>img {
   width: 100%;
@@ -924,7 +909,7 @@ footer h5 {
   #home {
       height: 80vh;
   }
-
+  
   h3 {
   font-size: 3rem;
   }
@@ -942,6 +927,10 @@ footer h5 {
   .col-md-4 {
       width: 33%;
       float: left;
+  }
+  
+  .col-sm-2 {
+    width: 16%;
   }
 
   buttons a {
@@ -978,7 +967,7 @@ footer h5 {
   #nav {
     text-align: center;
   }
-  
+
   .section-header h2.title {
   		font-size: 31.5px;
 	}
@@ -1046,23 +1035,6 @@ footer h5 {
   
     #nav {
         padding: 0px 0px;
-    }
-    .main-nav {
-        position: fixed;
-        right: 0;
-        height: calc(100vh - 80px);
-        -webkit-box-shadow: 0px 80px 0px 0px #1C1D21;
-        box-shadow: 0px 80px 0px 0px #1C1D21;
-        max-width: 250px;
-        width: 0%;
-        -webkit-transform: translateX(100%);
-        -ms-transform: translateX(100%);
-        transform: translateX(100%);
-        margin: 0;
-        overflow-y: auto;
-        background: #1C1D21;
-        -webkit-transition: 0.2s all;
-        transition: 0.2s all;
     }
     #nav.open .main-nav {
         -webkit-transform: translateX(0%);
@@ -1244,27 +1216,5 @@ footer h5 {
   .container {
     width: 1300px;
   }
-
-}
-
-/* iPad fixes */
-@media only screen and (orientation: landscape) and (max-width: 750px) {
-
-    .home-content iframe {
-        display: none !important;
-    }
-
-}
-
-/* more iPad fixes */
-@media only screen and (min-width: 768px) and (max-width: 992px) {
-    
-    iframe {
-        display: none;
-    }
-    
-    buttons {
-        display: none;
-    }
 
 }
