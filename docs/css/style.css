@@ -1,5 +1,9 @@
 /*** GENERAL ***/
 
+.responsive-img {
+  width: 100%;
+}
+
 /* aligns content */
 .middle {
   align-items: center;
@@ -96,7 +100,7 @@ ul, ol {
 }
 
 
-/* -- section  -- */
+/*** SECTION ***/
 
 .section {
     position: relative;
@@ -123,7 +127,7 @@ ul, ol {
 }
 
 
-/* --  background section  -- */
+/* background section  */
 
 .divided {
   border-top: 1px solid #EEE;
@@ -145,7 +149,7 @@ ul, ol {
 }
 
 
-/* --  background image section  -- */
+/* background image section  */
 
 .bg-img {
     position: absolute;
@@ -180,7 +184,7 @@ ul, ol {
 }
 
 
-/* --  section header  -- */
+/* section header  */
 
 .section-header {
     position: relative;
@@ -193,7 +197,7 @@ ul, ol {
 }
 
 
-/* --  Input  -- */
+/* Input  */
 
 input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="date"], input[type="url"], input[type="tel"], textarea {
     height: 48px;
@@ -216,7 +220,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 
-/* --  Buttons  -- */
+/* Buttons */
 
 buttons {
   display: flex;
@@ -300,7 +304,9 @@ buttons {
     color: #009BA2;
 }
 
+
 /* removes focus */
+
 button {
     outline: none;
 }
@@ -707,10 +713,6 @@ footer h5 {
 
 /*** RESPONSIVE ***/
 
-.responsive-img {
-  width: 100%;
-}
-
 @media only screen and (max-width: 1024px) {
   
   h2 {
@@ -790,6 +792,10 @@ footer h5 {
 }
 
 @media only screen and (max-width: 768px) {
+  
+  #home {
+    height: 90vh;
+  }
 
   #nav.nav-transparent .navbar-brand .logo-alt {
       display: none !important;
@@ -838,13 +844,14 @@ footer h5 {
     
   .home-content {
       text-align: center;
-      margin-top: -24px;
       padding: 0px 24px;
     }
 
 }
 
-/* -- default nav -- */
+
+/* default nav */
+
 @media only screen and (min-width: 768px) {
 
     .main-nav li {
@@ -953,7 +960,9 @@ footer h5 {
   }
 }
 
+
 /* bootstrap fixes */
+
 @media (max-width: 768px) {
   .about {
     height: 100%;
@@ -966,9 +975,28 @@ footer h5 {
     min-height: 643px;
     max-height: 840px;
   }
+  
+  #home .responsive-img {
+    width: 800px;
+    margin-left: -180px;
+  }
+  
+  #level-up .responsive-img {
+    width: 800px;
+    margin-left: -100px;
+  }
+  
+  #customer-success .responsive-img {
+    width: 700px;
+    margin-left: -64px;
+  }
+  
+  #customer-success .col-md-7 {
+    width: 56%;
+  }
 
   #home .col-md-12 {
-  text-align: left;
+    text-align: left;
   }
 
   #integrations .section-header h4 {
