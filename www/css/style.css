@@ -663,6 +663,9 @@ header {
   margin: 8px 12px;
   vertical-align: middle;
 }
+  .supporting-txt.white-text {
+    color: #fff;
+  }
 
 .home-content p {
   font-size: 2rem;
