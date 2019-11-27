@@ -742,10 +742,6 @@ footer h5 {
 		font-size: 4rem;
 	}
   
-  #nav button {
-    width: 164px;
-  }
-  
   h3 {
   font-size: 3rem;
   }
@@ -833,6 +829,15 @@ footer h5 {
 
   .navbar {
     padding: 8px 16px !important;
+  }
+  
+  .navbar-header {
+    display: inline-block;
+  }
+  
+  .main-nav {
+    float: right;
+    display: inline-block;
   }
 
   h2 {
@@ -970,7 +975,7 @@ footer h5 {
     width: 132px;
   }
   #home {
-    height: 110vh;
+    height: 116vh;
   }
   .home-content h1 {
     font-size: 3rem;
