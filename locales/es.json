@@ -9,16 +9,17 @@
   "cta": {
     "account": "Entra a tu cuenta",
     "access": "Acceder",
-    "startFree": "Empezar gratis",
+    "startFree": "Crear cuenta",
     "startNow": "Empieza ya mismo",
-    "freeAccount": "Crear cuenta gratuita"
+    "freeAccount": "Crear cuenta"
   },
   "home": {
-    "heading": "Optimiza la gestión de tus pedidos",
-    "value": "Construye un flujo de trabajo unificado para la preparación, empaquetado y envío de tus pedidos, independiente del transportista."
+    "heading": "Gestionar tus pedidos nunca fue tan fácil",
+    "headingHighlight": "tan fácil",
+    "value": "Prepara, empaqueta y envía los pedidos de tu tienda desde un mismo dashboard, independientemente del transportista"
   },
   "features": {
-    "heading": "Todos tus servicios en uno",
+    "heading": "Una solución integral",
     "uniqueUi": "Una interfaz única",
     "uniqueUiExplanation": "Una interfaz única para gestionar tus pedidos, incluyendo envíos, cambios y devoluciones",
     "tariffs": "Importa tus tarifas",
@@ -48,7 +49,7 @@
     "heading": "Crecemos contigo",
     "explanation": "Integra las soluciones más estandares del mercado o la tuya propia sin instalar ni módulos ni plugins. Puedes conectar tantas tiendas como integraciones ERP quieras en el sistema."
   },
-  "supportingText": "Crea tu cuenta gratuita en menos de 2 minutos",
+  "supportingText": "Crea tu cuenta en menos de 2 minutos",
   "sending": "Más de 4.000.000 de envíos gestionados",
   "startToday": "Empieza a enviar hoy mismo",
   "followUs": "Síguenos en:"
