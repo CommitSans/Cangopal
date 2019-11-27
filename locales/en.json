@@ -1,0 +1,56 @@
+{
+  "html_lang": "es",
+	"title": "Cangopal",
+  "nav": {
+    "integrations": "Integraciones",
+    "features": "Features",
+    "contact": "Contacto"
+  },
+  "cta": {
+    "account": "Entra a tu cuenta",
+    "access": "Acceder",
+    "startFree": "Crear cuenta",
+    "startNow": "Empieza ya mismo",
+    "freeAccount": "Crear cuenta"
+  },
+  "home": {
+    "heading": "Gestionar tus pedidos nunca fue tan fácil",
+    "headingHighlight": "tan fácil",
+    "value": "Prepara, empaqueta y envía los pedidos de tu tienda desde un mismo dashboard, independientemente del transportista"
+  },
+  "features": {
+    "heading": "Una solución integral",
+    "uniqueUi": "Una interfaz única",
+    "uniqueUiExplanation": "Una interfaz única para gestionar tus pedidos, incluyendo envíos, cambios y devoluciones",
+    "tariffs": "Importa tus tarifas",
+    "tariffsExplanation": "Utiliza las tarifas que hayas negociado previamente para optimizar tus costes operativos",
+    "packageTracking": "Seguimiento de envíos",
+    "trackingExplanation": "Genera informes de pedidos gestionados y haz el seguimiento de los pedidos en curso proactivamente",
+    "readMore": "Saber más"
+  },
+  "levelUp": {
+    "heading": "Sube de nivel",
+    "explanation": "Desde una misma interfaz, gestiona los pedidos de tus ventas, campañas de envíos masivos, distribución a tus almacenes o red de clientes. Con uno o varios transportistas."
+  },
+  "manualWork": {
+    "heading": "Acaba con el trabajo manual",
+    "explanation": "Desde una misma interfaz, gestiona los pedidos de tus ventas, campañas de envíos masivos, distribución a tus almacenes o red de clientes. Con uno o varios transportistas."
+  },
+  "integrations": {
+    "heading": "Integrado con todo",
+    "explanation": "Cangopal integra desde la misma interfaz a más de 15 transportistas diferentes con el flujo de preparación de tu negocio"
+  },
+  "customerSuccess": {
+    "heading": "Una atención al cliente excepcional",
+    "explanation": "Desde una misma interfaz, gestiona los pedidos de tus ventas, campañas de envíos masivos, distribución a tus almacenes o red de clientes. Con uno o varios transportistas.",
+    "supportTeam": "Nuestro equipo de soporte te ayudará en tus primeros pasos y estará ahí siempre que nos necesites"
+  },
+  "growth": {
+    "heading": "Crecemos contigo",
+    "explanation": "Integra las soluciones más estandares del mercado o la tuya propia sin instalar ni módulos ni plugins. Puedes conectar tantas tiendas como integraciones ERP quieras en el sistema."
+  },
+  "supportingText": "Crea tu cuenta en menos de 2 minutos",
+  "sending": "Más de 4.000.000 de envíos gestionados",
+  "startToday": "Empieza a enviar hoy mismo",
+  "followUs": "Síguenos en:"
+}

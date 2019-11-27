@@ -646,7 +646,7 @@ header {
 
 /*** CTAs ***/
 
-#CTA {
+#CTA, #CTA-2 {
     background: #009BA2;
     text-align: left;
 }
@@ -1008,6 +1008,11 @@ footer h5 {
   
   #customer-success .responsive-img {
     width: 700px;
+    margin-left: -64px;
+  }
+  
+  #CTA-2 .responsive-img {
+    width: 600px;
     margin-left: -64px;
   }
   
