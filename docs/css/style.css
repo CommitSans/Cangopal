@@ -723,7 +723,9 @@ footer h5 {
 /*** RESPONSIVE ***/
 
 @media only screen and (max-width: 1024px) {
-  
+  h1 {
+    font-size: 6rem;
+  }
   h2 {
     font-size: 5rem;
   }
@@ -807,7 +809,7 @@ footer h5 {
 @media only screen and (max-width: 768px) {
   
   #home {
-    height: 90vh;
+    height: 96vh;
   }
 
   #nav.nav-transparent .navbar-brand .logo-alt {
@@ -868,11 +870,45 @@ footer h5 {
       text-align: center;
       padding: 0px 24px;
     }
+  
+  #footer .footer-follow, #footer .footer-logo {
+    padding: 0px 16px;
+    text-align: left;
+  }
+  
+  footer a {
+    width: 100%;
+    display: inline-block;
+  }
 
 }
 
 
 /* default nav */
+
+@media only screen and (min-width: 1025px) {
+
+  #home .responsive-img {
+    width: 800px;
+    margin-left: -100px;
+  }
+  
+  #level-up .responsive-img {
+    width: 800px;
+    margin-left: -100px;
+  }
+  
+  #customer-success .responsive-img {
+    width: 700px;
+    margin-left: -64px;
+  }
+  
+  #CTA-2 .responsive-img {
+    width: 600px;
+    margin-left: -64px;
+  }
+
+}
 
 @media only screen and (min-width: 768px) {
 
@@ -999,26 +1035,6 @@ footer h5 {
   #home {
     min-height: 643px;
     max-height: 840px;
-  }
-  
-  #home .responsive-img {
-    width: 800px;
-    margin-left: -100px;
-  }
-  
-  #level-up .responsive-img {
-    width: 800px;
-    margin-left: -100px;
-  }
-  
-  #customer-success .responsive-img {
-    width: 700px;
-    margin-left: -64px;
-  }
-  
-  #CTA-2 .responsive-img {
-    width: 600px;
-    margin-left: -64px;
   }
   
   #CTA-2 button {
