@@ -11,43 +11,43 @@
     "access": "Acceder",
     "startFree": "Crear cuenta",
     "startNow": "Empieza ya mismo",
-    "freeAccount": "Let's do it"
+    "freeAccount": "Vamos a ello"
   },
   "home": {
-    "heading": "Gestionar tus pedidos nunca fue tan fácil",
+    "heading": "Gestionar tus pedidos nunca fue tan fácil.",
     "headingHighlight": "tan fácil",
-    "value": "Prepara, empaqueta y envía los pedidos de tu tienda desde un mismo dashboard, independientemente del transportista"
+    "value": "Prepara, empaqueta y envía los pedidos de tu tienda desde un mismo dashboard, independientemente del transportista."
   },
   "features": {
     "heading": "Una solución integral",
     "uniqueUi": "Una interfaz única",
-    "uniqueUiExplanation": "Una interfaz única para gestionar tus pedidos, incluyendo envíos, cambios y devoluciones",
+    "uniqueUiExplanation": "Una interfaz única para gestionar tus pedidos, incluyendo envíos, cambios y devoluciones.",
     "tariffs": "Importa tus tarifas",
-    "tariffsExplanation": "Utiliza las tarifas que hayas negociado previamente para optimizar tus costes operativos",
+    "tariffsExplanation": "Utiliza las tarifas que hayas negociado previamente para optimizar tus costes operativos.",
     "packageTracking": "Seguimiento de envíos",
-    "trackingExplanation": "Genera informes de pedidos gestionados y haz el seguimiento de los pedidos en curso proactivamente",
+    "trackingExplanation": "Genera informes de pedidos gestionados y haz el seguimiento de los pedidos en curso proactivamente.",
     "readMore": "Saber más"
   },
   "levelUp": {
     "heading": "Céntrate en lo importante",
-    "explanation": "Cangopal gestiona los pedidos de tus ventas, tus campañas de envíos masivos, la distribución a tus almacenes y la red de clientes para que puedas dedicarte a lo que de verdad importa"
+    "explanation": "Gestiona desde Cangopal los pedidos de tus ventas, tus campañas de envíos masivos y la distribución a tus almacenes para que puedas dedicarte a lo que de verdad importa: hacer crecer tu negocio."
   },
   "manualWork": {
     "heading": "Acaba con el trabajo manual",
-    "explanation": "Desde una misma interfaz, gestiona los pedidos de tus ventas, campañas de envíos masivos, distribución a tus almacenes o red de clientes. Con uno o varios transportistas."
+    "explanation": "¿Cada transportista tiene un sistema diferente? Sin problema: en Cangopal los tiene todos, sin tener que instalar plugins ni programar."
   },
   "integrations": {
     "heading": "Integrado con todo",
-    "explanation": "Cangopal integra desde la misma interfaz a más de 15 transportistas diferentes con el flujo de preparación de tu negocio"
+    "explanation": "Más de 15 transportistas diferentes disponibles con un click"
   },
   "customerSuccess": {
-    "heading": "Una atención al cliente excepcional",
-    "explanation": "Desde una misma interfaz, gestiona los pedidos de tus ventas, campañas de envíos masivos, distribución a tus almacenes o red de clientes. Con uno o varios transportistas.",
-    "supportTeam": "Nuestro equipo de soporte te ayudará en tus primeros pasos y estará ahí siempre que nos necesites"
+    "heading": "Estamos ahí cuando nos necesitas.",
+    "explanation": "Nuestro equipo de soporte está siempre disponible para que nunca paren los envíos.",
+    "supportTeam": "Nuestro equipo de soporte te ayudará en tus primeros pasos y estará ahí siempre que nos necesites."
   },
   "growth": {
     "heading": "Crecemos contigo",
-    "explanation": "Integra las soluciones más estandares del mercado o la tuya propia sin instalar ni módulos ni plugins. Puedes conectar tantas tiendas como integraciones ERP quieras en el sistema."
+    "explanation": "Usa nuestras tarifas negociadas si eres pequeño, y si ya eres grande, tráete las tuyas. Así de fácil."
   },
   "supportingText": "Crea tu cuenta en menos de 2 minutos",
   "sending": "Más de 4.000.000 de envíos gestionados",

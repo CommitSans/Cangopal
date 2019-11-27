@@ -906,9 +906,12 @@ footer h5 {
     margin-left: -100px;
   }
   
+  #customer-success h2 {
+    font-size: 5.6rem;
+  }
+  
   #customer-success .responsive-img {
     width: 700px;
-    margin-left: -64px;
   }
   
   #CTA-2 .responsive-img {
