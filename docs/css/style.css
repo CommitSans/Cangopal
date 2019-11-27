@@ -1016,6 +1016,10 @@ footer h5 {
     margin-left: -64px;
   }
   
+  #CTA-2 button {
+    width: 200px;
+  }
+  
   #customer-success .col-md-7 {
     width: 56%;
   }
