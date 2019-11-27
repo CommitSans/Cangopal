@@ -590,6 +590,8 @@ header {
 #home {
   height: 80vh;
   background-color: #f2feff;
+  align-items: center;
+  display: flex;
 /*
   background-image: url("../img/art3.png");
   background-repeat: no-repeat;
@@ -1016,7 +1018,7 @@ header {
 	CTA
 \*------------------------------------*/
 
-#CTA {
+#CTA, #CTA-2 {
     background: #009BA2;
     text-align: left;
 }
@@ -1044,7 +1046,8 @@ header {
     margin-bottom: 40px;
 }
 
-.footer-logo>a>img {
+.footer-logo > a > img,
+.footer-logo > img {
     max-height: 64px;
 }
 
@@ -1099,7 +1102,9 @@ footer h5 {
     
     /* reduces home height */
     #home {
-        height: 80vh;
+        padding-top: 16px;
+        height: auto;
+        /*height: 80vh;*/
     }
     
     .home-content {
@@ -1253,7 +1258,8 @@ footer h5 {
     }
     
     #home {
-        height: 88vh;
+        height: auto;
+        /*height: 88vh;*/
     }
     
     .navbar-brand .logo, .navbar-brand .logo-alt {
