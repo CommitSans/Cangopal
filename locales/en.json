@@ -1,59 +1,59 @@
 {
-  "html_lang": "es",
-	"title": "Cangopal",
+  "html_lang": "en",
+	"title": "CANGOPAL",
   "nav": {
-    "integrations": "Integraciones",
+    "integrations": "Integrations",
     "features": "Features",
-    "contact": "Contacto"
+    "contact": "Contact"
   },
   "cta": {
-    "account": "Entra a tu cuenta",
-    "access": "Acceder",
-    "startFree": "Crear cuenta",
-    "startNow": "Empieza ya mismo",
-    "freeAccount": "Vamos a ello"
+    "account": "Log In",
+    "access": "Access",
+    "startFree": "Create Account",
+    "startNow": "Start Right Now",
+    "freeAccount": "Let's Do It"
   },
   "home": {
-    "heading": "Gestionar tus pedidos nunca fue tan fácil.",
-    "headingHighlight": "tan fácil",
-    "value": "Prepara, empaqueta y envía los pedidos de tu tienda desde un mismo dashboard, independientemente del transportista."
+    "heading": "Managing your orders has never been so easy.",
+    "headingHighlight": "so easy",
+    "value": "Prepare, manage and ship your Shop orders from a single dashboard, independent form the courrier."
   },
   "features": {
-    "heading": "Una solución integral",
-    "uniqueUi": "Una interfaz única",
-    "uniqueUiExplanation": "Una interfaz única para gestionar tus pedidos, incluyendo envíos, cambios y devoluciones.",
-    "tariffs": "Importa tus tarifas",
-    "tariffsExplanation": "Utiliza las tarifas que hayas negociado previamente para optimizar tus costes operativos.",
-    "packageTracking": "Seguimiento de envíos",
-    "trackingExplanation": "Genera informes de pedidos gestionados y haz el seguimiento de los pedidos en curso proactivamente.",
-    "readMore": "Saber más"
+    "heading": "Integral Solution",
+    "uniqueUi": "Single Interface",
+    "uniqueUiExplanation": "A single interface to manage your orders, including shipments, changes and returns.",
+    "tariffs": "Save Time",
+    "tariffsExplanation": "Order Management Time will decrease from minutes to seconds, so you can dedicate ressources to sell more.",
+    "packageTracking": "Shipment Tracking",
+    "trackingExplanation": "Generate reports of managed orders and track them proactively.",
+    "readMore": "Tell me more"
   },
   "levelUp": {
-    "heading": "Céntrate en lo importante",
-    "explanation": "Gestiona desde Cangopal los pedidos de tus ventas, tus campañas de envíos masivos y la distribución a tus almacenes para que puedas dedicarte a lo que de verdad importa: hacer crecer tu negocio."
+    "heading": "Focus on what's important",
+    "explanation": "MAnage from CANGOPAL your sales orders, your massive shipments campaigns and your warehouse distribution to focus on what really matters: your business growth."
   },
   "manualWork": {
-    "heading": "Acaba con el trabajo manual",
-    "explanation": "¿Cada transportista tiene un sistema diferente? Sin problema: en Cangopal los tiene todos, sin tener que instalar plugins ni programar."
+    "heading": "No more manual work",
+    "explanation": "Each carrier has a different system? No problem: CANGOPAL supports them all, without installing plugins or coding."
   },
   "integrations": {
-    "heading": "Integrado con todo",
-    "explanation": "Más de 15 transportistas diferentes disponibles con un click"
+    "heading": "We integrate anything",
+    "explanation": "More than 15 different carriers and logistic operators in one click"
   },
   "customerSuccess": {
-    "heading": "Estamos ahí cuando nos necesitas",
-    "explanation": "Nuestro equipo de soporte está siempre disponible para que nunca paren los envíos.",
-    "supportTeam": "Nuestro equipo de soporte te ayudará en tus primeros pasos y estará ahí siempre que nos necesites."
+    "heading": "We are here for you.",
+    "explanation": "Our Support Team is always available so your shipments never stop.",
+    "supportTeam": "Our Support Team is helping you during your first steps and any time you need them."
   },
   "growth": {
-    "heading": "Crecemos contigo",
-    "explanation": "Usa nuestras tarifas negociadas si eres pequeño, y si ya eres grande, tráete las tuyas. Así de fácil."
+    "heading": "We grow together",
+    "explanation": "Optimize your ressources if you're small and indsutrialize or externalize if your big. That easy."
   },
-  "supportingText": "Crea tu cuenta en menos de 2 minutos",
-  "sending": "Más de 4.000.000 de envíos gestionados",
-  "startToday": "Empieza a enviar hoy mismo",
-  "followUs": "Síguenos en:",
-  "privacy": "Política de privacidad",
-  "tos": "Términos y condiciones",
-  "cookies": "Política de cookies"
+  "supportingText": "Contact our Sales Team",
+  "sending": "Over 4.575.000 orders managed",
+  "startToday": "I Want to Optimize",
+  "followUs": "Follow us:",
+  "privacy": "Privacy",
+  "tos": "Terms & Conditions",
+  "cookies": "Cookies"
 }

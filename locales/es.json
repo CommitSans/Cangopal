@@ -1,6 +1,6 @@
 {
   "html_lang": "es",
-	"title": "Cangopal",
+	"title": "CANGOPAL",
   "nav": {
     "integrations": "Integraciones",
     "features": "Features",
@@ -16,29 +16,29 @@
   "home": {
     "heading": "Gestionar tus pedidos nunca fue tan fácil.",
     "headingHighlight": "tan fácil",
-    "value": "Prepara, empaqueta y envía los pedidos de tu tienda desde un mismo dashboard, independientemente del transportista."
+    "value": "Prepara, gestiona y envía los pedidos de tu tienda desde una misma pantalla, independiente del transportista que uses."
   },
   "features": {
     "heading": "Una solución integral",
     "uniqueUi": "Una interfaz única",
-    "uniqueUiExplanation": "Una interfaz única para gestionar tus pedidos, incluyendo envíos, cambios y devoluciones.",
-    "tariffs": "Importa tus tarifas",
-    "tariffsExplanation": "Utiliza las tarifas que hayas negociado previamente para optimizar tus costes operativos.",
+    "uniqueUiExplanation": "Una interfaz única para gestionar tus pedidos con cualquier transportista, incluyendo envíos, seguimiento, cambios y devoluciones.",
+    "tariffs": "Ahora tiempo",
+    "tariffsExplanation": "El tiempo de gestión pasará de minutos a segundos, por lo que podrás dedicar tus recursos a vender más.",
     "packageTracking": "Seguimiento de envíos",
     "trackingExplanation": "Genera informes de pedidos gestionados y haz el seguimiento de los pedidos en curso proactivamente.",
     "readMore": "Saber más"
   },
   "levelUp": {
     "heading": "Céntrate en lo importante",
-    "explanation": "Gestiona desde Cangopal los pedidos de tus ventas, tus campañas de envíos masivos y la distribución a tus almacenes para que puedas dedicarte a lo que de verdad importa: hacer crecer tu negocio."
+    "explanation": "Gestiona desde CANGOPAL los pedidos de tus ventas, tus campañas de envíos masivos y la distribución a tus almacenes para que puedas dedicarte a lo que de verdad importa: hacer crecer tu negocio."
   },
   "manualWork": {
     "heading": "Acaba con el trabajo manual",
-    "explanation": "¿Cada transportista tiene un sistema diferente? Sin problema: en Cangopal los tiene todos, sin tener que instalar plugins ni programar."
+    "explanation": "¿Cada transportista tiene un sistema diferente? Sin problema: en CANGOPAL los tiene todos, sin tener que instalar plugins ni programar."
   },
   "integrations": {
-    "heading": "Integrado con todo",
-    "explanation": "Más de 15 transportistas diferentes disponibles con un click"
+    "heading": "Integramos con todo",
+    "explanation": "Más de 15 transportistas diferentes y varios operadores logísticos disponibles con un click"
   },
   "customerSuccess": {
     "heading": "Estamos ahí cuando nos necesitas",
@@ -47,11 +47,11 @@
   },
   "growth": {
     "heading": "Crecemos contigo",
-    "explanation": "Usa nuestras tarifas negociadas si eres pequeño, y si ya eres grande, tráete las tuyas. Así de fácil."
+    "explanation": "Optimiza tus recursos si eres pequeño, y si ya eres grande, industrializa o externaliza. Así de fácil."
   },
-  "supportingText": "Crea tu cuenta en menos de 2 minutos",
-  "sending": "Más de 4.000.000 de envíos gestionados",
-  "startToday": "Empieza a enviar hoy mismo",
+  "supportingText": "Contacta con nuestro equipo de ventas",
+  "sending": "Más de 4.575.000 de pedidos gestionados",
+  "startToday": "Quiero optimizar",
   "followUs": "Síguenos en:",
   "privacy": "Política de privacidad",
   "tos": "Términos y condiciones",
