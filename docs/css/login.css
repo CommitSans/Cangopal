@@ -6,8 +6,12 @@ html, body {
 }
 
 #login {
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	border-radius: 5px;
 	max-width: 450px;
 	padding: 32px; 
+	margin: 32px;
 }
 
 .login-logo {
@@ -15,17 +19,44 @@ html, body {
 	width: 150px;
 }
 
+#login h2 {
+	font-size: 2em;
+}
+
 .login-text {
 	margin-bottom: 32px;
 }
 
-#login input[type="email"],
-#login input[type="password"] {
+label {
+	font-weight: normal;
+}
+
+#login select,
+#login input[type="text"],
+#login input[type="password"],
+#login input[type="email"] {
 	border: 1px solid rgba(0,0,0,.1);
 	margin: 4px 0;
 }
 
+#login #remember {
+	margin: 16px 2px;
+}
+
+#login button {
+	background-color: #009BA2;
+	border-color: transparent;
+}
+	#login button:hover {
+		background-color: rgba(0, 155, 162, .8)
+	}
+
 .forgot-password {
 	display: inline-block;
+	font-size: .9em;
 	margin: 8px 0;
+}
+
+.btn-register {
+	margin: 16px 0;
 }

@@ -35,23 +35,51 @@
 			<img src="../img/logo.svg" class="login-logo">
 		</div>
 		<div class="text-center center login-text">
-			Entra en tu cuenta
+			<!-- <h2 data-t>login.heading</h2> -->
+			<p>register.explanation</p>
 		</div>
 		<p id="profile-name" class="profile-name-card"></p>
 		<form class="form-signin">
 			<span id="reauth-email" class="reauth-email"></span>
-			<input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-			<input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-			<div id="remember" class="checkbox">
+			<input type="email" id="inputEmail" name="email" class="form-control" required autofocus placeholder="register.email">
+			<input type="password" id="inputPassword" name="password" class="form-control" required placeholder="register.password">
+			<input type="password" id="inputPassword" name="password" class="form-control" required placeholder="register.password2">
+			<input type="text" id="inputPhone" name="phone" class="form-control" required placeholder="register.phone">
+
+			<hr>
+
+			<p>register.extraInfo</p>
+
+			<label class="small">register.shippings</label>
+			<select id="inputShippings" name="shippings" class="form-control" required>
+				<option>register.shippingCount.0-100</option>
+				<option>register.shippingCount.100-500</option>
+				<option>register.shippingCount.500-1000</option>
+				<option>register.shippingCount.1000</option>
+			</select>
+			
+			<label class="small">register.carriers</label>
+			<input type="text" id="inputCarriers" name="carriers" class="form-control" required>
+
+			<label class="small">register.shop</label>
+			<input type="text" id="inputCarriers" name="carriers" class="form-control" required>
+
+			<hr>
+
+			<div id="tos" class="checkbox">
 				<label>
-					<input type="checkbox" value="remember-me"> Remember me
+					<input type="checkbox" value="tos">
+					<span>register.tos.start</span>
+					<a href="terms.html">register.tos.terms</a>
+					<span>register.tos.connector</span>
+					<a href="privacy.html">register.tos.privacy</a>
+					<span>register.tos.end</span>
 				</label>
 			</div>
-			<button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Sign in</button>
+			<button class="btn btn-lg btn-primary btn-block btn-register" type="submit">
+				<span>register.submit</span>
+			</button>
 		</form><!-- /form -->
-		<a href="#" class="forgot-password pa-2">
-			Forgot the password?
-		</a>
 	</div>
 
 	<!-- jQuery Plugins -->
