@@ -49,6 +49,11 @@
     "heading": "Crecemos contigo",
     "explanation": "Optimiza tus recursos si eres pequeño, y si ya eres grande, industrializa o externaliza. Así de fácil."
   },
+    "logIn": {
+    "heading": "Entrar a tu cuenta",
+    "explanation": "Entra usando tu usuario y contraseña.",
+    "supportTeam": "Nuestro equipo de soporte te ayudará en tus primeros pasos y estará ahí siempre que nos necesites."
+  },
   "supportingText": "Contacta con nuestro equipo de ventas",
   "sending": "Más de 4.575.000 de pedidos gestionados",
   "startToday": "Quiero optimizar",
