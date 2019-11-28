@@ -35,23 +35,104 @@
 			<img src="img/logo.svg" class="login-logo">
 		</div>
 		<div class="text-center center login-text">
-			Entra en tu cuenta
+			<!-- <h2 data-t>login.heading</h2> -->
+			<p data-t>register.explanation</p>
 		</div>
 		<p id="profile-name" class="profile-name-card"></p>
 		<form class="form-signin">
 			<span id="reauth-email" class="reauth-email"></span>
-			<input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-			<input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-			<div id="remember" class="checkbox">
+			<input
+				type="email"
+				id="inputEmail"
+				name="email"
+				class="form-control"
+				data-attr-t
+				placeholder-t="register.email"
+				required 
+				autofocus
+			/>
+			<input
+				type="password"
+				id="inputPassword"
+				name="password"
+				class="form-control"
+				data-attr-t
+				placeholder-t="register.password"
+				required
+			>
+			<input
+				type="password"
+				id="inputPassword"
+				name="password"
+				class="form-control"
+				data-attr-t
+				placeholder-t="register.password2"
+				required
+			>
+			<input
+				type="text"
+				id="inputPhone"
+				name="phone"
+				class="form-control"
+				data-attr-t
+				placeholder-t="register.phone"
+				required
+			>
+
+			<hr>
+
+			<p data-t>register.extraInfo</p>
+
+			<label class="small" data-t>register.shippings</label>
+			<select
+				id="inputShippings"
+				name="shippings"
+				class="form-control"
+				required
+			>
+				<option data-t>register.shippingCount.0-100</option>
+				<option data-t>register.shippingCount.100-500</option>
+				<option data-t>register.shippingCount.500-1000</option>
+				<option data-t>register.shippingCount.1000</option>
+			</select>
+			
+			<label class="small" data-t>register.carriers</label>
+			<input
+				type="text"
+				id="inputCarriers"
+				name="carriers"
+				class="form-control"
+				required
+			>
+
+			<label class="small" data-t>register.shop</label>
+			<input
+				type="text"
+				id="inputCarriers"
+				name="carriers"
+				class="form-control"
+				required
+			>
+
+			<hr>
+
+			<div id="tos" class="checkbox">
 				<label>
-					<input type="checkbox" value="remember-me"> Remember me
+					<input type="checkbox" value="tos" />
+					<span data-t>register.tos.start</span>
+					<a href="terms.html" data-t>register.tos.terms</a>
+					<span data-t>register.tos.connector</span>
+					<a href="privacy.html" data-t>register.tos.privacy</a>
+					<span data-t>register.tos.end</span>
 				</label>
 			</div>
-			<button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Sign in</button>
+			<button
+				class="btn btn-lg btn-primary btn-block btn-register"
+				type="submit"
+			>
+				<span data-t>register.submit</span>
+			</button>
 		</form><!-- /form -->
-		<a href="#" class="forgot-password pa-2">
-			Forgot the password?
-		</a>
 	</div>
 
 	<!-- jQuery Plugins -->

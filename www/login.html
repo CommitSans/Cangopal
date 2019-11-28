@@ -17,6 +17,7 @@
 
 	<!-- Custom stlylesheet -->
 	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	<link type="text/css" rel="stylesheet" href="css/login.css" />
 	
 	<!-- font -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap" rel="stylesheet">
@@ -27,69 +28,55 @@
 	<!-- Localize the website -->
 	<!-- <script type="text/javascript" src="js/locale.js"></script> -->
 </head>
-<body>
-		<!-- Features 1 -->
-	<div id="features" class="section md-padding bg-soft">
-		<!-- Container -->
-		<div class="container">
-			<!-- Row -->
-			<div class="row middle">
-				<!-- Content -->
-				<div class="col-md-5 col-sm-8">
-          <img class="responsive-img" src="img/logo.svg" />
-				</div>
-				<div class="col-md-7 col-sm-8">
-					<div class="section-header">
-						<h2 class="title" data-t>Entrar en tu cuenta</h2>
-					</div>
-					<h4 data-t>Introduce tu email y contraseña</h4>
-		<input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="MCXV65ygDfnFaSAnSUzzqoXoFerb8K4Y5tCown3RuUeWMyclybkZgsksj7vh9dwPB/Y0gasdFyK/LejQE30Asg==">
-					<div class="content" style="color: #333;">
-						<div class="form-group">
-							<div class="col-sm-12" id="username_vc">
-								<div class="input-group">
-									<span class="input-group-addon"><i class="fa fa-user"></i></span>
-									<input type="text" name="email" id="email" class="form-control" placeholder="Dirección de email" autocomplete="off" required="required" data-parsley-errors-container="#username_vc" data-parsley-type="email">
-								</div>
-							</div>
-						</div>
-						<div class="form-group">
-							<div class="col-sm-12" id="password_vc">
-								<div class="input-group">
-									<span class="input-group-addon"><i class="fa fa-lock"></i></span>
-									<input type="password" name="password" id="password" class="form-control" placeholder="Contraseña" autocomplete="off" required="required" data-parsley-errors-container="#password_vc">
-								</div>
-							</div>
-						</div>							
-					</div>
-					<div class="foot" style="color: #333; font-size: 13px;">
-						<div style="float: left; margin-left: 20px;">
-
-					    </div>
-						<div class="clearfix"></div>
-					</div>
-			
-          <buttons>
-            <a href="https://www.cangopal.com/es/login" style="display: flex;">
-              <button class="main-btn" data-t>Entrar</button>
-            </a>
-            <hr>
-            	<label class="checkbox remember_me">
-					<input type="checkbox" name="remember_me" id="remember_me" value="1" data-parsley-multiple="remember_me"> Recordarme
-				</label>
-				<hr>
-          </buttons>
-          				<div clwass="pull-left">
-					<a class="pull-left forgot_pass" href="/password_resets/new">He olvidado mi contraseña</a>
-				</div>
-				</div>
-				<!-- /Content -->
-			</div>
-			<!-- /Row -->
+<body class="bg-soft">
+	<!-- Container -->
+	<div id="login" class="container">
+		<div class="text-center center">
+			<img src="img/logo.svg" class="login-logo">
 		</div>
-		<!-- /Container -->
+		<div class="text-center center login-text">
+			<!-- <h2 data-t>login.heading</h2> -->
+			<p data-t>login.explanation</p>
+		</div>
+		<p id="profile-name" class="profile-name-card"></p>
+		<form class="form-signin">
+			<span id="reauth-email" class="reauth-email"></span>
+			<input
+				type="email"
+				id="inputEmail"
+				name="email"
+				class="form-control"
+				data-attr-t
+				placeholder-t="login.email"
+				required 
+				autofocus
+			/>
+			<input
+				type="password"
+				id="inputPassword"
+				name="password"
+				class="form-control"
+				data-attr-t
+				placeholder-t="login.password"
+				required
+			>
+			<div id="remember" class="checkbox">
+				<label>
+					<input type="checkbox" value="remember-me" />
+					<span data-t>login.remember</span>
+				</label>
+			</div>
+			<button
+				class="btn btn-lg btn-primary btn-block btn-signin"
+				type="submit"
+			>
+				<span data-t>login.submit</span>
+			</button>
+		</form><!-- /form -->
+		<a href="#" class="forgot-password pa-2">
+			<span data-t>login.forgotPassword</span>
+		</a>
 	</div>
-	<!-- /Features 1 -->
 
 	<!-- jQuery Plugins -->
 	<script type="text/javascript" src="js/jquery.min.js"></script>
@@ -101,11 +88,11 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-60236565-1"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
 
-    gtag('config', 'UA-60236565-1');
+	gtag('config', 'UA-60236565-1');
   </script>
 </body>
 
