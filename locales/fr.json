@@ -1,0 +1,59 @@
+{
+  "html_lang": "fr",
+	"title": "CANGOPAL",
+  "nav": {
+    "integrations": "Integrations",
+    "features": "Fonctionnalités",
+    "contact": "Contacter"
+  },
+  "cta": {
+    "account": "Entrer",
+    "access": "Entrer",
+    "startFree": "Créer Compte",
+    "startNow": "Commenzer",
+    "freeAccount": "C'est parti"
+  },
+  "home": {
+    "heading": "Gêrer vos commandes n'a jamais été si facile.",
+    "headingHighlight": "si facile",
+    "value": "Préparez, gêrez et envoyez les comandes de votre magasin depuis un dasboard centralisé, indépéndent du transporteur."
+  },
+  "features": {
+    "heading": "Solution Intégrale",
+    "uniqueUi": "Interface Unique",
+    "uniqueUiExplanation": "Une seule interface your gêrer vos comandes, ainsi que les envois, retours et échanges.",
+    "tariffs": "Économisez Temps",
+    "tariffsExplanation": "Le temps de gestion des comandes passera de minutes à secondes de façon à vous aider a vendre plus.",
+    "packageTracking": "Suivi des envois",
+    "trackingExplanation": "Générez des rapports de comandes gêrées et suives-les proactivement.",
+    "readMore": "Racontez-moi plus"
+  },
+  "levelUp": {
+    "heading": "Focus en ce qui importe",
+    "explanation": "Vos comandes avec CANGOPAL se préparent facilement, pour vos clients, campagnes et distribution pour vous aider dans la croissance de votre business."
+  },
+  "manualWork": {
+    "heading": "Plus jamais travail manuel",
+    "explanation": "Chaque transporteur impose un système? Pas de problème: CANGOPAL supporte tous, sans installer des plugins, ni modules, ni developper."
+  },
+  "integrations": {
+    "heading": "On integre tout",
+    "explanation": "Plus de 15 transporteurs et operateurs logistiques à un click"
+  },
+  "customerSuccess": {
+    "heading": "On est là pour vous.",
+    "explanation": "Notre équipe de support est toujours là por que vous envois ne s'arretent jamais.",
+    "supportTeam": "Notre équipe de support vous aide dans les premiers pas et tout le temps après."
+  },
+  "growth": {
+    "heading": "On y va ensemble",
+    "explanation": "Optimisez vous ressources si vous êtes petit et industrialisez si vous êtes grand. Trop facile."
+  },
+  "supportingText": "Contactez notre équipe de ventes",
+  "sending": "Plus de 4.575.000 comanges gêrées",
+  "startToday": "Je veux",
+  "followUs": "Suivez-nous:",
+  "privacy": "Privacité",
+  "tos": "CGV",
+  "cookies": "Cookies"
+}
