@@ -41,13 +41,48 @@
     "explanation": "Más de 15 transportistas diferentes y varios operadores logísticos disponibles con un click"
   },
   "customerSuccess": {
-    "heading": "Estamos ahí cuando nos necesitas.",
+    "heading": "Estamos ahí cuando nos necesitas",
     "explanation": "Nuestro equipo de soporte está siempre disponible para que nunca paren los envíos.",
     "supportTeam": "Nuestro equipo de soporte te ayudará en tus primeros pasos y estará ahí siempre que nos necesites."
   },
   "growth": {
     "heading": "Crecemos contigo",
     "explanation": "Optimiza tus recursos si eres pequeño, y si ya eres grande, industrializa o externaliza. Así de fácil."
+  },
+  "login": {
+    "heading": "Entrar a tu cuenta",
+    "explanation": "Entra usando tu email y contraseña.",
+    "email": "Email",
+    "password": "Contraseña",
+    "remember": "Recordar mi contraseña",
+    "submit": "Entrar",
+    "forgotPassword": "He olvidado mi contraseña",
+    "supportTeam": "Nuestro equipo de soporte te ayudará en tus primeros pasos y estará ahí siempre que nos necesites."
+  },
+  "register": {
+    "explanation": "Crea tu cuenta, y empieza a enviar.",
+    "email": "Email",
+    "password": "Contraseña",
+    "password2": "Repite tu contraseña",
+    "phone": "Teléfono",
+    "extraInfo": "Tres preguntas fáciles:",
+    "shippings": "¿Cuantos envíos haces al mes?",
+    "shippingCount": {
+      "0-100": "Entre 0 y 100",
+      "100-500": "Entre 100 y 500",
+      "500-1000": "Entre 500 y 1000",
+      "1000": "Más de 1000"
+    },
+    "carriers": "¿Con que transportistas trabajas?",
+    "shop": "Dirección de tu tienda online, si tienes ",
+    "submit": "Crear cuenta",
+    "tos": {
+      "start": "He leido y acepto los",
+      "terms": "Terminos y Condiciones",
+      "connector": "y la",
+      "privacy": "Política de privacidad",
+      "end": ""
+    }
   },
   "supportingText": "Contacta con nuestro equipo de ventas",
   "sending": "Más de 4.575.000 de pedidos gestionados",
