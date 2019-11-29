@@ -1044,7 +1044,8 @@ header {
     margin-bottom: 40px;
 }
 
-.footer-logo>a>img {
+.footer-logo > a > img,
+.footer-logo > img {
     max-height: 64px;
 }
 

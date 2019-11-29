@@ -1,0 +1,25 @@
+html, body {
+	min-height: 100%;
+}
+
+.container {
+	margin-top: 32px;
+}
+
+.row-logo {
+	margin: 32px 0;
+}
+
+.legal-logo {
+	width: 150px;
+}
+
+.updated {
+	margin-top: 9px;
+	font-size: .8em;
+}
+
+h2 {
+	font-size: 2em;
+	margin: 16px 0 32px;
+}
