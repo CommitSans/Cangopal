@@ -22,7 +22,7 @@
     "heading": "Una solución integral",
     "uniqueUi": "Una interfaz única",
     "uniqueUiExplanation": "Una interfaz única para gestionar tus pedidos con cualquier transportista, incluyendo envíos, seguimiento, cambios y devoluciones.",
-    "tariffs": "Ahora tiempo",
+    "tariffs": "Ahorra tiempo",
     "tariffsExplanation": "El tiempo de gestión pasará de minutos a segundos, por lo que podrás dedicar tus recursos a vender más.",
     "packageTracking": "Seguimiento de envíos",
     "trackingExplanation": "Genera informes de pedidos gestionados y haz el seguimiento de los pedidos en curso proactivamente.",
@@ -30,11 +30,11 @@
   },
   "levelUp": {
     "heading": "Céntrate en lo importante",
-    "explanation": "Gestiona desde CANGOPAL los pedidos de tus ventas, tus campañas de envíos masivos y la distribución a tus almacenes para que puedas dedicarte a lo que de verdad importa: hacer crecer tu negocio."
+    "explanation": "Gestiona desde Cangopal los pedidos de tus ventas, tus campañas de envíos masivos y la distribución a tus almacenes para que puedas dedicarte a lo que de verdad importa: hacer crecer tu negocio."
   },
   "manualWork": {
     "heading": "Acaba con el trabajo manual",
-    "explanation": "¿Cada transportista tiene un sistema diferente? Sin problema: en CANGOPAL los tiene todos, sin tener que instalar plugins ni programar."
+    "explanation": "¿Cada transportista tiene un sistema diferente? Sin problema: en Cangopal los tiene todos, sin tener que instalar plugins ni programar."
   },
   "integrations": {
     "heading": "Integramos con todo",
