@@ -14,7 +14,7 @@
     "freeAccount": "Let's Do It"
   },
   "home": {
-    "heading": "Managing your orders has never been so easy.",
+    "heading": "Managing your orders has never been so easy",
     "headingHighlight": "so easy",
     "value": "Prepare, manage and ship your Shop orders from a single dashboard, independent form the courrier."
   },
@@ -30,18 +30,18 @@
   },
   "levelUp": {
     "heading": "Focus on what's important",
-    "explanation": "MAnage from CANGOPAL your sales orders, your massive shipments campaigns and your warehouse distribution to focus on what really matters: your business growth."
+    "explanation": "Manage from CANGOPAL your sales orders, your massive shipments campaigns and your warehouse distribution to focus on what really matters: your business growth."
   },
   "manualWork": {
     "heading": "No more manual work",
-    "explanation": "Each carrier has a different system? No problem: CANGOPAL supports them all, without installing plugins or coding."
+    "explanation": "Each carrier has a different system? No problem: Cangopal supports them all, without installing plugins or coding."
   },
   "integrations": {
     "heading": "We integrate anything",
     "explanation": "More than 15 different carriers and logistic operators in one click"
   },
   "customerSuccess": {
-    "heading": "We are here for you.",
+    "heading": "We are here for you",
     "explanation": "Our Support Team is always available so your shipments never stop.",
     "supportTeam": "Our Support Team is helping you during your first steps and any time you need them."
   },
