@@ -90,5 +90,10 @@
   "followUs": "Síguenos en:",
   "privacy": "Política de privacidad",
   "tos": "Términos y condiciones",
-  "cookies": "Política de cookies"
+  "cookies": "Política de cookies",
+  "cookiePolicy": {
+    "text": "¡Hola! Para descubrir como hacer un producto mejor para ti, usamos cookies propias y de terceros.",
+    "accept": "Aceptar",
+    "readMore": "Leer la política de cookies"
+  }
 }
