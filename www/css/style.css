@@ -723,18 +723,25 @@ footer h5 {
 /*** COOKIES ***/
 
 .cookies-banner {
-    background: #009BA2;
-    padding: 24px 124px 24px 32px;
-    color: #fff;
-    box-sizing: border-box;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 10;
+  background: #009ba2;
+  padding: 24px 24px 24px 32px;
+  color: #fff;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 4%;
+  left: 0;
+  width: 56%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+  margin-left: 2%;
+  box-shadow: 0px 8px 24px 8px rgba(0,0,0,0.16);
+  border-radius: 4px;
+}
+
+.cookies-banner .cookies-read {
+  text-decoration: underline;
 }
 
 .cookies-accept {
@@ -743,18 +750,26 @@ footer h5 {
     padding: 8px 12px;
 }
 
+  .cookies-banner button {
+    margin-left: 12px;
+  }
+
 .cookies-read {
     color: #fff;
 }
 
 @media only screen and (max-width: 991px) {
-    .cookies-banner {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .cookies-accept {
-        margin-top: 12px;
-    }
+  .cookies-banner {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+  }
+  
+  .cookies-banner button {
+    margin-top: 16px;
+    margin-left: 0px;
+  }
+  
 }
 
 
@@ -849,6 +864,20 @@ footer h5 {
   
   .row {
       text-align: center;
+  }
+  
+  .cookies-banner {
+    width: 100%;
+    margin-left: 0px;
+    border-radius: 0px;
+    top: 0px;
+    z-index: 99999999999999;
+    bottom: auto;
+  }
+  
+  .cookies-banner button {
+    width: 100%;
+    text-align: center;
   }
 
 }
