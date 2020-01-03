@@ -745,33 +745,59 @@ footer h5 {
 }
 
 .cookies-accept {
-    display: inline-block;
-    background-color: #fff;
-    padding: 8px 12px;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 4px;
 }
-
-  .cookies-banner button {
-    margin-left: 12px;
-  }
 
 .cookies-read {
     color: #fff;
 }
 
 @media only screen and (max-width: 991px) {
+
   .cookies-banner {
     flex-direction: column;
     align-items: flex-start;
     padding: 24px;
   }
   
-  .cookies-banner button {
-    margin-top: 16px;
-    margin-left: 0px;
+  .cookies-accept {
+    display: inline-block;
+    background-color: #fff;
+    margin-top: 12px;
   }
+    .cookies-accept button {
+      margin: 0px;
+    }
   
 }
 
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+  
+  .cookies-banner {
+    padding: 32px 16%;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (min-width: 800px) and (max-width: 991px) {
+  
+  .cookies-banner {
+    flex-direction: row;
+    text-align: left;
+    padding: 32px 8%;
+    align-items: center;
+  }
+  
+  .cookies-banner a {
+    max-width: 200px;
+    margin-top: 0px;
+    margin-left: 16px;
+  }
+
+}
 
 
 /*** RESPONSIVE ***/
@@ -875,7 +901,7 @@ footer h5 {
     bottom: auto;
   }
   
-  .cookies-banner button {
+  .cookies-banner a {
     width: 100%;
     text-align: center;
   }
@@ -985,6 +1011,10 @@ footer h5 {
   #CTA-2 .responsive-img {
     width: 600px;
     margin-left: -64px;
+  }
+  
+  .cookies-banner a {
+    margin-left: 16px;
   }
 
 }

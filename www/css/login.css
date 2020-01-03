@@ -55,6 +55,9 @@ label {
 	display: inline-block;
 	font-size: .9em;
 	margin: 8px 0;
+  width: 100%;
+  text-align: center;
+  padding: 8px;
 }
 
 .btn-register {
